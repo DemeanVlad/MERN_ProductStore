@@ -6,7 +6,7 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter> {/* ✅ AICI trebuie să fie definit o singură dată */}
+    <BrowserRouter> 
       <ChakraProvider>
         <App />
       </ChakraProvider>

@@ -1,8 +1,9 @@
 import { Box } from "@chakra-ui/react";
-import { Routes, Route } from "react-router-dom"; // ❌ NU FOLOSI BrowserRouter aici!
+import { Routes, Route } from "react-router-dom";
 import CreatePage from "./pages/CreatePage";
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
+
 
 function App() {
   return (
